@@ -84,7 +84,7 @@ const templateMenu = [
         }
       },
       {
-        label: 'Exit',
+        label: 'Exit_',
         accelerator: process.platform == 'darwin' ? 'command+Q' : 'Ctrl+Q',
         click() {
           app.quit();
